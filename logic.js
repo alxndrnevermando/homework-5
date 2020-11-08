@@ -50,11 +50,11 @@ var check2 = 14;
 var check3 = 15;
 var check4 = 16;
 var check5 = 17;
-var timeCheck = parseInt(moment().format("LT"))
+var timeCheck = parseInt(moment().format("HH"))
 
 //Creating function which check current time against the variable which is representing each different time on my planner. This will change the class.
 
-function adder (check9, timeCheck) {
+function adder () {
     if (check9 > timeCheck) {
         $("#textin9").removeClass('past present future')
         $("#textin9").addClass("future")
@@ -195,4 +195,4 @@ $("#button5").on("click", function() {
     }
 });
 
-console.log(adder(check9, time));
+adder();
