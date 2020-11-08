@@ -30,6 +30,14 @@ var textEntry5 = $("#textin5");
 //Grab the data from locale storage, if there is anything there
 
 textEntry9.val(localStorage.getItem('ninth'));
+textEntry10.val(localStorage.getItem('tenth'));
+textEntry11.val(localStorage.getItem('eleventh'));
+textEntry12.val(localStorage.getItem('twelfth'));
+textEntry1.val(localStorage.getItem('first'));
+textEntry2.val(localStorage.getItem('second'));
+textEntry3.val(localStorage.getItem('third'));
+textEntry4.val(localStorage.getItem('fourth'));
+textEntry5.val(localStorage.getItem('fifth'));
 
 //Creating an event handler so when I click on my save button it stores the entry to local storage
 
