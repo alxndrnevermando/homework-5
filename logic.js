@@ -50,101 +50,102 @@ var check2 = 14;
 var check3 = 15;
 var check4 = 16;
 var check5 = 17;
+var timeCheck = parseInt(moment().format("LT"))
 
 //Creating function which check current time against the variable which is representing each different time on my planner. This will change the class.
 
-function adder (check9, time) {
-    if (check9 > parseInt(moment().format("LT"))) {
+function adder (check9, timeCheck) {
+    if (check9 > timeCheck) {
         $("#textin9").removeClass('past present future')
         $("#textin9").addClass("future")
-    } else if(check9 === parseInt(moment().format("LT"))) {
+    } else if(check9 === timeCheck) {
         $("#textin9").removeClass('past present future')
         $("#textin9").addClass("present")
-    } else if (check9 < parseInt(moment().format("LT"))) {
+    } else if (check9 < timeCheck) {
         $("#textin9").removeClass('past present future')
         $("#textin9").addClass("past")
     }
-};
-    if (check10 > parseInt(moment().format("LT"))) {
+    if (check10 > timeCheck) {
         $("#textin10").removeClass('past present future')
         $("#textin10").addClass("future")
-    } else if(check10 === parseInt(moment().format("LT"))) {
+    } else if(check10 === timeCheck) {
         $("#textin10").removeClass('past present future')
         $("#textin10").addClass("present")
-    } else if (check10 < parseInt(moment().format("LT"))) {
+    } else if (check10 < timeCheck) {
         $("#textin10").removeClass('past present future')
         $("#textin10").addClass("past")
     }
-    if (check11 > parseInt(moment().format("LT"))) {
+    if (check11 > timeCheck) {
         $("#textin11").removeClass('past present future')
         $("#textin11").addClass("future")
-    } else if(check11 === parseInt(moment().format("LT"))) {
+    } else if(check11 === timeCheck) {
         $("#textin11").removeClass('past present future')
         $("#textin11").addClass("present")
-    } else if (check11 < parseInt(moment().format("LT"))) {
+    } else if (check11 < timeCheck) {
         $("#textin11").removeClass('past present future')
         $("#textin11").addClass("past")
     }
-    if (check12 > parseInt(moment().format("LT"))) {
+    if (check12 > timeCheck) {
         $("#textin12").removeClass('past present future')
         $("#textin12").addClass("future")
-    } else if(check12 === parseInt(moment().format("LT"))) {
+    } else if(check12 === timeCheck) {
         $("#textin12").removeClass('past present future')
         $("#textin12").addClass("present")
-    } else if (check12 < parseInt(moment().format("LT"))) {
+    } else if (check12 < timeCheck) {
         $("#textin12").removeClass('past present future')
         $("#textin12").addClass("past")
     }
-    if (check1 > parseInt(moment().format("LT"))) {
+    if (check1 > timeCheck) {
         $("#textin1").removeClass('past present future')
         $("#textin1").addClass("future")
-    } else if(check1 === parseInt(moment().format("LT"))) {
+    } else if(check1 === timeCheck) {
         $("#textin1").removeClass('past present future')
         $("#textin1").addClass("present")
-    } else if (check1 < parseInt(moment().format("LT"))) {
+    } else if (check1 < timeCheck) {
         $("#textin1").removeClass('past present future')
         $("#textin1").addClass("past")
     }
-    if (check2 > parseInt(moment().format("LT"))) {
+    if (check2 > timeCheck) {
         $("#textin2").removeClass('past present future')
         $("#textin2").addClass("future")
-    } else if(check2 === parseInt(moment().format("LT"))) {
+    } else if(check2 === timeCheck) {
         $("#textin2").removeClass('past present future')
         $("#textin2").addClass("present")
-    } else if (check2 < parseInt(moment().format("LT"))) {
+    } else if (check2 < timeCheck) {
         $("#textin2").removeClass('past present future')
         $("#textin2").addClass("past")
     }
-    if (check3 > parseInt(moment().format("LT"))) {
+    if (check3 > timeCheck) {
         $("#textin3").removeClass('past present future')
         $("#textin3").addClass("future")
-    } else if(check3 === parseInt(moment().format("LT"))) {
+    } else if(check3 === timeCheck) {
         $("#textin3").removeClass('past present future')
         $("#textin3").addClass("present")
-    } else if (check3 < parseInt(moment().format("LT"))) {
+    } else if (check3 < timeCheck) {
         $("#textin3").removeClass('past present future')
         $("#textin3").addClass("past")
     }
-    if (check4 > parseInt(moment().format("LT"))) {
+    if (check4 > timeCheck) {
         $("#textin4").removeClass('past present future')
         $("#textin4").addClass("future")
-    } else if(check4 === parseInt(moment().format("LT"))) {
+    } else if(check4 === timeCheck) {
         $("#textin4").removeClass('past present future')
         $("#textin4").addClass("present")
-    } else if (check4 < parseInt(moment().format("LT"))) {
+    } else if (check4 < timeCheck) {
         $("#textin4").removeClass('past present future')
         $("#textin4").addClass("past")
     }
-    if (check5 > parseInt(moment().format("LT"))) {
+    if (check5 > timeCheck) {
         $("#textin5").removeClass('past present future')
         $("#textin5").addClass("future")
-    } else if(check5 === parseInt(moment().format("LT"))) {
+    } else if(check5 === timeCheck) {
         $("#textin5").removeClass('past present future')
         $("#textin5").addClass("present")
-    } else if (check5 < parseInt(moment().format("LT"))) {
+    } else if (check5 < timeCheck) {
         $("#textin5").removeClass('past present future')
         $("#textin5").addClass("past")
     }
+};
 
 //Creating an event handler so when I click on my save button it stores the entry to local storage
 
