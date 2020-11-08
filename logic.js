@@ -46,3 +46,43 @@ $("#button9").on("click", function() {
         localStorage.setItem("ninth", textEntry9.val())
     }
 });
+$("#button10").on("click", function() {
+    if (textEntry10.val() !== "") {
+        localStorage.setItem("ninth", textEntry10.val())
+    }
+});
+$("#button11").on("click", function() {
+    if (textEntry11.val() !== "") {
+        localStorage.setItem("ninth", textEntry11.val())
+    }
+});
+$("#button12").on("click", function() {
+    if (textEntry12.val() !== "") {
+        localStorage.setItem("ninth", textEntry12.val())
+    }
+});
+$("#button1").on("click", function() {
+    if (textEntry1.val() !== "") {
+        localStorage.setItem("ninth", textEntry1.val())
+    }
+});
+$("#button2").on("click", function() {
+    if (textEntry2.val() !== "") {
+        localStorage.setItem("ninth", textEntry2.val())
+    }
+});
+$("#button3").on("click", function() {
+    if (textEntry3.val() !== "") {
+        localStorage.setItem("ninth", textEntry3.val())
+    }
+});
+$("#button4").on("click", function() {
+    if (textEntry4.val() !== "") {
+        localStorage.setItem("ninth", textEntry4.val())
+    }
+});
+$("#button5").on("click", function() {
+    if (textEntry5.val() !== "") {
+        localStorage.setItem("ninth", textEntry5.val())
+    }
+});
