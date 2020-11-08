@@ -48,41 +48,41 @@ $("#button9").on("click", function() {
 });
 $("#button10").on("click", function() {
     if (textEntry10.val() !== "") {
-        localStorage.setItem("ninth", textEntry10.val())
+        localStorage.setItem("tenth", textEntry10.val())
     }
 });
 $("#button11").on("click", function() {
     if (textEntry11.val() !== "") {
-        localStorage.setItem("ninth", textEntry11.val())
+        localStorage.setItem("eleventh", textEntry11.val())
     }
 });
 $("#button12").on("click", function() {
     if (textEntry12.val() !== "") {
-        localStorage.setItem("ninth", textEntry12.val())
+        localStorage.setItem("twelfth", textEntry12.val())
     }
 });
 $("#button1").on("click", function() {
     if (textEntry1.val() !== "") {
-        localStorage.setItem("ninth", textEntry1.val())
+        localStorage.setItem("first", textEntry1.val())
     }
 });
 $("#button2").on("click", function() {
     if (textEntry2.val() !== "") {
-        localStorage.setItem("ninth", textEntry2.val())
+        localStorage.setItem("second", textEntry2.val())
     }
 });
 $("#button3").on("click", function() {
     if (textEntry3.val() !== "") {
-        localStorage.setItem("ninth", textEntry3.val())
+        localStorage.setItem("third", textEntry3.val())
     }
 });
 $("#button4").on("click", function() {
     if (textEntry4.val() !== "") {
-        localStorage.setItem("ninth", textEntry4.val())
+        localStorage.setItem("fourth", textEntry4.val())
     }
 });
 $("#button5").on("click", function() {
     if (textEntry5.val() !== "") {
-        localStorage.setItem("ninth", textEntry5.val())
+        localStorage.setItem("fifth", textEntry5.val())
     }
 });
