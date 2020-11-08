@@ -39,6 +39,43 @@ textEntry3.val(localStorage.getItem('third'));
 textEntry4.val(localStorage.getItem('fourth'));
 textEntry5.val(localStorage.getItem('fifth'));
 
+//Creating variables which I will use to compare my current time with in order to set the past, present, and future colors
+
+var check9 = 9;
+var check10 = 10;
+var check11 = 11;
+var check12 = 12;
+var check1 = 13;
+var check2 = 14;
+var check3 = 15;
+var check4 = 16;
+var check5 = 17;
+
+//Creating function which check current time against the variable which is representing each different time on my planner. This will change the class.
+
+function adder () {
+    if (check9 > parseInt(moment().format("LT"))) {
+        $("#textin9").removeClass('past present future')
+        $("#textin9").addClass("future")
+    } else if(check9 === parseInt(moment().format("LT"))) {
+        $("#textin9").removeClass('past present future')
+        $("#textin9").addClass("present")
+    } else if (check9 < parseInt(moment().format("LT"))) {
+        $("#textin9").removeClass('past present future')
+        $("#textin9").addClass("past")
+    }
+};
+    if (check10 > parseInt(moment().format("LT"))) {
+        $("#textin10").removeClass('past present future')
+        $("#textin10").addClass("future")
+    } else if(check10 === parseInt(moment().format("LT"))) {
+        $("#textin10").removeClass('past present future')
+        $("#textin10").addClass("present")
+    } else if (check10 < parseInt(moment().format("LT"))) {
+        $("#textin10").removeClass('past present future')
+        $("#textin10").addClass("past")
+    }
+
 //Creating an event handler so when I click on my save button it stores the entry to local storage
 
 $("#button9").on("click", function() {

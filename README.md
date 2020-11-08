@@ -4,7 +4,7 @@ This application is a simple, daily planner. Users can input text into the plann
 
 ## Screenshot
 
-<img width="2560" alt="Screen Shot 2020-10-31 at 11 48 05 PM" src="https://user-images.githubusercontent.com/71421032/97796783-93ffdb00-1bd3-11eb-9335-23f48356e5c7.png">
+<img width="2560" alt="Screen Shot 2020-10-31 at 11 48 05 PM" src="">
 
 ## Features
 
