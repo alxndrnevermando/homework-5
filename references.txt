@@ -1,2 +1,3 @@
 https://stackoverflow.com/questions/24584779/set-textarea-width-to-100-in-bootstrap-modal
 https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+https://stackoverflow.com/questions/10590461/dynamic-date-and-time-with-moment-js-and-setinterval?noredirect=1&lq=1
