@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/24584779/set-textarea-width-to-100-in-bootstrap-modal
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
