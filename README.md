@@ -1,4 +1,4 @@
-# homework-5
+# Work Day Scheduler
 
 This application is a simple, daily planner. Users can input text into the planner textarea and save their text. Additionally, the textarea is color coded to represent whether the specific time selected is in the past, present or future. 
 
